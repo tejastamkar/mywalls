@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "614061589384",
+    "project_id": "rwalls-afd67",
+    "storage_bucket": "rwalls-afd67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614061589384:android:b46992fd86822f55fc303d",
+        "android_client_info": {
+          "package_name": "com.example.mywalls"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614061589384-u1gabut1d8sal05n2a4asi74gfrufv5r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcnXOkHiEy3lqxbVCnVJcnr3ccCdCiNsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614061589384-u1gabut1d8sal05n2a4asi74gfrufv5r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
