@@ -2,7 +2,7 @@
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:mywalls/fruitsCard.dart';
+import 'package:mywalls/Components/fruitsCard.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
