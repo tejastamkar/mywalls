@@ -1,13 +1,26 @@
-// ignore_for_file: prefer_const_constructors, non_constant_identifier_names
-
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'pages/list.dart';
+import 'package:mywalls/homescreen.dart';
 
 Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
-  runApp(const MaterialApp(
-    home: Home(),
+  runApp(MaterialApp(
+    theme: ThemeData(
+        appBarTheme: const AppBarTheme(
+            backgroundColor: Colors.white,
+            elevation: 0,
+            foregroundColor: Colors.black),
+        scaffoldBackgroundColor: Colors.white,
+        backgroundColor: Colors.white),
+    home: const Main(),
   ));
+}
+
+String collectionName = "";
+
+class Main extends StatelessWidget {
+  const Main({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return const HomeScreen();
+  }
 }
